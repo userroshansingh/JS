@@ -7,9 +7,12 @@ accountCity = "Mumbai"
 
 console.log(accountId);
 
-accountEmail = "rds@gmail.com"
+accountEmail = "RDS@gmail.com"
 accountPassword = "98765"
 accountCity = "Gurgaon"
 
 
 console.table([accountId, accountEmail, accountPassword, accountCity])
+
+// prefer not to use var 
+// because of issue in block scope and functional scope
